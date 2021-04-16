@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>JavaScript console.log() Method</h2>
+	
+	<h2>External JavaScript</h2>
+	
+	<p id="demo" onclick="myFunction()">
+	Display complete name, course, year, subject code and section, and subject desccription (Click me)
+	</p>
+	
+	<script>
+		function myFunction() {
+			document.getElementById("demo").innerHTML="<p>Allenby Ocyo</p><p>BS Information Tehnology</p><p>1st Year College</p><p>HUMCOM1 - IDA2</p><p>Human Computer Interaction</p>";
+		}
+		
+		document.write(
+			"<p>Allenby Ocyo</p><p>BS Information Tehnology</p><p>1st Year College</p><p>HUMCOM1 - IDA2</p><p>Human Computer Interaction</p>"
+		);
+		
+		console.log(
+			"Allenby Ocyo /n BS Information Tehnology /n 1st Year College /n HUMCOM1 - IDA2 /n Human Computer Interaction"
+		);
+		
+		document.write("script.js");
+		alert(
+			"Allenby Ocyo /n BS Information Tehnology /n 1st Year College /n HUMCOM1 - IDA2 /n Human Computer Interaction"
+		);
+	</script>
+</body>
+</html>
